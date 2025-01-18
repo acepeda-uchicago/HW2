@@ -1,0 +1,16 @@
+Part 1:
+Median: 52.9877
+Time Taken (nanoseconds): 9125ns
+Part 2:
+Median: 52.9877
+Time Taken (nanoseconds): 48250ns
+Part 3:
+Median: 52.9877
+Time Taken (nanoseconds): 19250ns
+Part 4/5:
+Median of Vector<double> with odd number of entries: 11.3
+Median of Vector<int> with odd number of entries: 11
+Median of Vector<float> with odd number of entries: 11.3
+Median of Vector<double> with even number of entries: 7.25
+Median of Vector<int> with even number of entries: 7
+Median of Vector<float> with even number of entries: 7.25
