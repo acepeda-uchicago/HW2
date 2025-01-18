@@ -5,4 +5,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 project(HW2Q2)
 
-add_executable(HW2Q2 HW2Q2.cpp)
+add_executable(HW2Q2 HW2-2.cpp)

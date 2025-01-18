@@ -129,29 +129,29 @@ HW2Q2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW2Q2.dir/build.make CMakeFiles/HW2Q2.dir/build
 .PHONY : HW2Q2/fast
 
-HW2Q2.o: HW2Q2.cpp.o
-.PHONY : HW2Q2.o
+HW2-2.o: HW2-2.cpp.o
+.PHONY : HW2-2.o
 
 # target to build an object file
-HW2Q2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW2Q2.dir/build.make CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o
-.PHONY : HW2Q2.cpp.o
+HW2-2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW2Q2.dir/build.make CMakeFiles/HW2Q2.dir/HW2-2.cpp.o
+.PHONY : HW2-2.cpp.o
 
-HW2Q2.i: HW2Q2.cpp.i
-.PHONY : HW2Q2.i
+HW2-2.i: HW2-2.cpp.i
+.PHONY : HW2-2.i
 
 # target to preprocess a source file
-HW2Q2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW2Q2.dir/build.make CMakeFiles/HW2Q2.dir/HW2Q2.cpp.i
-.PHONY : HW2Q2.cpp.i
+HW2-2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW2Q2.dir/build.make CMakeFiles/HW2Q2.dir/HW2-2.cpp.i
+.PHONY : HW2-2.cpp.i
 
-HW2Q2.s: HW2Q2.cpp.s
-.PHONY : HW2Q2.s
+HW2-2.s: HW2-2.cpp.s
+.PHONY : HW2-2.s
 
 # target to generate assembly for a file
-HW2Q2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW2Q2.dir/build.make CMakeFiles/HW2Q2.dir/HW2Q2.cpp.s
-.PHONY : HW2Q2.cpp.s
+HW2-2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW2Q2.dir/build.make CMakeFiles/HW2Q2.dir/HW2-2.cpp.s
+.PHONY : HW2-2.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HW2Q2"
-	@echo "... HW2Q2.o"
-	@echo "... HW2Q2.i"
-	@echo "... HW2Q2.s"
+	@echo "... HW2-2.o"
+	@echo "... HW2-2.i"
+	@echo "... HW2-2.s"
 .PHONY : help
 
 

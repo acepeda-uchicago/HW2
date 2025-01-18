@@ -72,28 +72,28 @@ include CMakeFiles/HW2Q2.dir/flags.make
 CMakeFiles/HW2Q2.dir/codegen:
 .PHONY : CMakeFiles/HW2Q2.dir/codegen
 
-CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o: CMakeFiles/HW2Q2.dir/flags.make
-CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o: /Users/aleccepeda/Documents/MPCS/MPCS\ 51044/Homework/Homework2/HW2/HW2Q2/HW2Q2.cpp
-CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o: CMakeFiles/HW2Q2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o -MF CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o.d -o CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o -c "/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/HW2Q2.cpp"
+CMakeFiles/HW2Q2.dir/HW2-2.cpp.o: CMakeFiles/HW2Q2.dir/flags.make
+CMakeFiles/HW2Q2.dir/HW2-2.cpp.o: /Users/aleccepeda/Documents/MPCS/MPCS\ 51044/Homework/Homework2/HW2/HW2Q2/HW2-2.cpp
+CMakeFiles/HW2Q2.dir/HW2-2.cpp.o: CMakeFiles/HW2Q2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HW2Q2.dir/HW2-2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HW2Q2.dir/HW2-2.cpp.o -MF CMakeFiles/HW2Q2.dir/HW2-2.cpp.o.d -o CMakeFiles/HW2Q2.dir/HW2-2.cpp.o -c "/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/HW2-2.cpp"
 
-CMakeFiles/HW2Q2.dir/HW2Q2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2Q2.dir/HW2Q2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/HW2Q2.cpp" > CMakeFiles/HW2Q2.dir/HW2Q2.cpp.i
+CMakeFiles/HW2Q2.dir/HW2-2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2Q2.dir/HW2-2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/HW2-2.cpp" > CMakeFiles/HW2Q2.dir/HW2-2.cpp.i
 
-CMakeFiles/HW2Q2.dir/HW2Q2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2Q2.dir/HW2Q2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/HW2Q2.cpp" -o CMakeFiles/HW2Q2.dir/HW2Q2.cpp.s
+CMakeFiles/HW2Q2.dir/HW2-2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2Q2.dir/HW2-2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/HW2-2.cpp" -o CMakeFiles/HW2Q2.dir/HW2-2.cpp.s
 
 # Object files for target HW2Q2
 HW2Q2_OBJECTS = \
-"CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o"
+"CMakeFiles/HW2Q2.dir/HW2-2.cpp.o"
 
 # External object files for target HW2Q2
 HW2Q2_EXTERNAL_OBJECTS =
 
-HW2Q2: CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o
+HW2Q2: CMakeFiles/HW2Q2.dir/HW2-2.cpp.o
 HW2Q2: CMakeFiles/HW2Q2.dir/build.make
 HW2Q2: CMakeFiles/HW2Q2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/aleccepeda/Documents/MPCS/MPCS 51044/Homework/Homework2/HW2/HW2Q2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HW2Q2"

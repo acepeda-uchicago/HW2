@@ -4,4 +4,4 @@ set(CMAKE_CXX_STANDARD 20)
 
 project(HW2Q1)
 
-add_executable(HW2Q1 HW2Q1.cpp)
+add_executable(HW2Q1 HW2-1.cpp)

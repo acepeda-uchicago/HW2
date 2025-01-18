@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o"
-  "CMakeFiles/HW2Q2.dir/HW2Q2.cpp.o.d"
+  "CMakeFiles/HW2Q2.dir/HW2-2.cpp.o"
+  "CMakeFiles/HW2Q2.dir/HW2-2.cpp.o.d"
   "HW2Q2"
   "HW2Q2.pdb"
 )
