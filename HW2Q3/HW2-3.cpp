@@ -13,35 +13,48 @@ int binomial_coeff(int n, int k) {
    return binomial_coeff(n - 1, k - 1) + binomial_coeff(n - 1, k);
 }
 
-vector<vector<int> > create_pascal_matrix(int n) {
-    vector<vector<int> > pascal_matrix;
-    // iterate from 0 to total_rows (n)
-    for (int row = 0; row < n; row++) {
-        // create array to store values for this row
-        vector<int> arr;
-        // the number of entries in a row == n
-        // iterate through entries and add to end of array
-        for (int i = 0; i <= row; i++)
-            arr.push_back(binomial_coeff(row, i));
-        // add array to matrix
-        pascal_matrix.push_back(arr);
+class PascalTriangle {
+    private:
+        vector<vector<int> > matrix;
+
+    public:
+        int num_of_rows;
+
+        PascalTriangle(int n) : num_of_rows(n) {create_matrix();}
+
+        void create_matrix(){
+            matrix.clear();
+            for (int row = 0; row < num_of_rows; row++) {
+                // create array to store values for this row
+                vector<int> arr;
+                // the number of entries in a row == n
+                // iterate through entries and add to end of array
+                for (int i = 0; i <= row; i++)
+                    arr.push_back(binomial_coeff(row, i));
+                // add array to matrix
+                matrix.push_back(arr);
+            }
     }
-    return pascal_matrix;
-}
+
+    void print_matrix(){
+        for (int i = 0; i < matrix.size(); i++) {
+            for (int j = 0; j < matrix[i].size(); j++) {
+                cout << matrix[i][j] << " ";
+            }
+            // newline after a full row is printed
+            cout << endl;
+        }
+    }
+};
 
 int main() {
-    // desired number of levels
-    int n = 8;
-    // create pascal matrix
-    vector<vector<int> > mat = create_pascal_matrix(n);
-    // iterate through matrix levels, matrix values 
-    // and print to console with space in between them
-    for (int i = 0; i < mat.size(); i++) {
-        for (int j = 0; j < mat[i].size(); j++) {
-            cout << mat[i][j] << " ";
-        }
-        // newline after a full row is printed
-        cout << endl;
-    }
-    return 0;
+    // will automatically create the matrix upon class intialization
+    PascalTriangle p(5);
+    p.print_matrix();
+
+    // can change number of rows and regenerate matrix if desired
+    p.num_of_rows = 8;
+    p.create_matrix();
+    p.print_matrix();
+
 }
