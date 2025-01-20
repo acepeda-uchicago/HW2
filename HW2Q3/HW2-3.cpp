@@ -46,7 +46,12 @@ class PascalTriangle {
         }
     }
 };
-
+// I do feel like this class-oriented implementation is much more clear. 
+// Since the user would likely only be changing the amount of rows they want
+// to print, being able to keep the pascal matrix as a private vairable 
+// ensures the user only has to worry about setting up the number of rows, which they 
+// can do upon initialization of the class. This simplifies the use of the class
+// and makes the code a lot easier to read as well. 
 int main() {
     // will automatically create the matrix upon class intialization
     PascalTriangle p(5);
